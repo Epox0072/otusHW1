@@ -16,7 +16,7 @@ struct ThridScreen: View {
         Button {
             isModal.toggle()
         } label: {
-            Text("Open modal")
+            Text("Open modal view")
         }
         .buttonStyle(.borderless)
         .sheet(isPresented: $isModal) {
