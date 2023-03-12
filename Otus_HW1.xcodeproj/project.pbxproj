@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D4B8AC29BCB7F40058D14D /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = 13D4B8AB29BCB7F40058D14D /* NavigationStack */; };
+		13E47D6C29B35C6500C6B128 /* Otus_HW1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D6B29B35C6500C6B128 /* Otus_HW1App.swift */; };
+		13E47D6E29B35C6500C6B128 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D6D29B35C6500C6B128 /* ContentView.swift */; };
+		13E47D7029B35C6600C6B128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E47D6F29B35C6600C6B128 /* Assets.xcassets */; };
+		13E47D7329B35C6600C6B128 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E47D7229B35C6600C6B128 /* Preview Assets.xcassets */; };
+		13E47D7D29B35C6600C6B128 /* Otus_HW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D7C29B35C6600C6B128 /* Otus_HW1Tests.swift */; };
+		13E47D8729B35C6600C6B128 /* Otus_HW1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D8629B35C6600C6B128 /* Otus_HW1UITests.swift */; };
+		13E47D8929B35C6600C6B128 /* Otus_HW1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D8829B35C6600C6B128 /* Otus_HW1UITestsLaunchTests.swift */; };
+		13E47D9B29B35D3E00C6B128 /* TabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D9A29B35D3E00C6B128 /* TabViewScreen.swift */; };
+		13E47D9D29B35DCA00C6B128 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D9C29B35DCA00C6B128 /* FirstScreen.swift */; };
+		13E47D9F29B35DD600C6B128 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47D9E29B35DD600C6B128 /* SecondScreen.swift */; };
+		13E47DA129B35DDF00C6B128 /* ThridScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47DA029B35DDF00C6B128 /* ThridScreen.swift */; };
+		13E47DA329B3683600C6B128 /* SecondScreen__VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47DA229B3683600C6B128 /* SecondScreen__VM.swift */; };
+		13E47DA529B3954800C6B128 /* FoodDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E47DA429B3954800C6B128 /* FoodDetailScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13E47D7929B35C6600C6B128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E47D6029B35C6500C6B128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E47D6729B35C6500C6B128;
+			remoteInfo = Otus_HW1;
+		};
+		13E47D8329B35C6600C6B128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E47D6029B35C6500C6B128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E47D6729B35C6500C6B128;
+			remoteInfo = Otus_HW1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D4B8AA29BCB7E10058D14D /* NavigationStack */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NavigationStack; path = Modules/NavigationStack; sourceTree = "<group>"; };
+		13E47D6829B35C6500C6B128 /* Otus_HW1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus_HW1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E47D6B29B35C6500C6B128 /* Otus_HW1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus_HW1App.swift; sourceTree = "<group>"; };
+		13E47D6D29B35C6500C6B128 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13E47D6F29B35C6600C6B128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E47D7229B35C6600C6B128 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13E47D7829B35C6600C6B128 /* Otus_HW1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Otus_HW1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E47D7C29B35C6600C6B128 /* Otus_HW1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus_HW1Tests.swift; sourceTree = "<group>"; };
+		13E47D8229B35C6600C6B128 /* Otus_HW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Otus_HW1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E47D8629B35C6600C6B128 /* Otus_HW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus_HW1UITests.swift; sourceTree = "<group>"; };
+		13E47D8829B35C6600C6B128 /* Otus_HW1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus_HW1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13E47D9A29B35D3E00C6B128 /* TabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewScreen.swift; sourceTree = "<group>"; };
+		13E47D9C29B35DCA00C6B128 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		13E47D9E29B35DD600C6B128 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		13E47DA029B35DDF00C6B128 /* ThridScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridScreen.swift; sourceTree = "<group>"; };
+		13E47DA229B3683600C6B128 /* SecondScreen__VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen__VM.swift; sourceTree = "<group>"; };
+		13E47DA429B3954800C6B128 /* FoodDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E47D6529B35C6500C6B128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D4B8AC29BCB7F40058D14D /* NavigationStack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E47D7529B35C6600C6B128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E47D7F29B35C6600C6B128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D4B8A729BCB6D70058D14D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13E47D5F29B35C6500C6B128 = {
+			isa = PBXGroup;
+			children = (
+				13D4B8AA29BCB7E10058D14D /* NavigationStack */,
+				13E47D6A29B35C6500C6B128 /* Otus_HW1 */,
+				13E47D7B29B35C6600C6B128 /* Otus_HW1Tests */,
+				13E47D8529B35C6600C6B128 /* Otus_HW1UITests */,
+				13E47D6929B35C6500C6B128 /* Products */,
+				13D4B8A729BCB6D70058D14D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13E47D6929B35C6500C6B128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D6829B35C6500C6B128 /* Otus_HW1.app */,
+				13E47D7829B35C6600C6B128 /* Otus_HW1Tests.xctest */,
+				13E47D8229B35C6600C6B128 /* Otus_HW1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E47D6A29B35C6500C6B128 /* Otus_HW1 */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D9529B35CBC00C6B128 /* Views */,
+				13E47D6B29B35C6500C6B128 /* Otus_HW1App.swift */,
+				13E47D6D29B35C6500C6B128 /* ContentView.swift */,
+				13E47D6F29B35C6600C6B128 /* Assets.xcassets */,
+				13E47D7129B35C6600C6B128 /* Preview Content */,
+			);
+			path = Otus_HW1;
+			sourceTree = "<group>";
+		};
+		13E47D7129B35C6600C6B128 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D7229B35C6600C6B128 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13E47D7B29B35C6600C6B128 /* Otus_HW1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D7C29B35C6600C6B128 /* Otus_HW1Tests.swift */,
+			);
+			path = Otus_HW1Tests;
+			sourceTree = "<group>";
+		};
+		13E47D8529B35C6600C6B128 /* Otus_HW1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D8629B35C6600C6B128 /* Otus_HW1UITests.swift */,
+				13E47D8829B35C6600C6B128 /* Otus_HW1UITestsLaunchTests.swift */,
+			);
+			path = Otus_HW1UITests;
+			sourceTree = "<group>";
+		};
+		13E47D9529B35CBC00C6B128 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D9629B35CC700C6B128 /* TabScreen */,
+				13E47D9729B35CD900C6B128 /* FirstScreen */,
+				13E47D9829B35CEF00C6B128 /* SecondScreen */,
+				13E47D9929B35CF700C6B128 /* ThridScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13E47D9629B35CC700C6B128 /* TabScreen */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D9A29B35D3E00C6B128 /* TabViewScreen.swift */,
+			);
+			path = TabScreen;
+			sourceTree = "<group>";
+		};
+		13E47D9729B35CD900C6B128 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D9C29B35DCA00C6B128 /* FirstScreen.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		13E47D9829B35CEF00C6B128 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				13E47D9E29B35DD600C6B128 /* SecondScreen.swift */,
+				13E47DA229B3683600C6B128 /* SecondScreen__VM.swift */,
+				13E47DA429B3954800C6B128 /* FoodDetailScreen.swift */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		13E47D9929B35CF700C6B128 /* ThridScreen */ = {
+			isa = PBXGroup;
+			children = (
+				13E47DA029B35DDF00C6B128 /* ThridScreen.swift */,
+			);
+			path = ThridScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E47D6729B35C6500C6B128 /* Otus_HW1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E47D8C29B35C6600C6B128 /* Build configuration list for PBXNativeTarget "Otus_HW1" */;
+			buildPhases = (
+				13E47D6429B35C6500C6B128 /* Sources */,
+				13E47D6529B35C6500C6B128 /* Frameworks */,
+				13E47D6629B35C6500C6B128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Otus_HW1;
+			packageProductDependencies = (
+				13D4B8AB29BCB7F40058D14D /* NavigationStack */,
+			);
+			productName = Otus_HW1;
+			productReference = 13E47D6829B35C6500C6B128 /* Otus_HW1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E47D7729B35C6600C6B128 /* Otus_HW1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E47D8F29B35C6600C6B128 /* Build configuration list for PBXNativeTarget "Otus_HW1Tests" */;
+			buildPhases = (
+				13E47D7429B35C6600C6B128 /* Sources */,
+				13E47D7529B35C6600C6B128 /* Frameworks */,
+				13E47D7629B35C6600C6B128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E47D7A29B35C6600C6B128 /* PBXTargetDependency */,
+			);
+			name = Otus_HW1Tests;
+			productName = Otus_HW1Tests;
+			productReference = 13E47D7829B35C6600C6B128 /* Otus_HW1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13E47D8129B35C6600C6B128 /* Otus_HW1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E47D9229B35C6600C6B128 /* Build configuration list for PBXNativeTarget "Otus_HW1UITests" */;
+			buildPhases = (
+				13E47D7E29B35C6600C6B128 /* Sources */,
+				13E47D7F29B35C6600C6B128 /* Frameworks */,
+				13E47D8029B35C6600C6B128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E47D8429B35C6600C6B128 /* PBXTargetDependency */,
+			);
+			name = Otus_HW1UITests;
+			productName = Otus_HW1UITests;
+			productReference = 13E47D8229B35C6600C6B128 /* Otus_HW1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E47D6029B35C6500C6B128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13E47D6729B35C6500C6B128 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					13E47D7729B35C6600C6B128 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13E47D6729B35C6500C6B128;
+					};
+					13E47D8129B35C6600C6B128 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13E47D6729B35C6500C6B128;
+					};
+				};
+			};
+			buildConfigurationList = 13E47D6329B35C6500C6B128 /* Build configuration list for PBXProject "Otus_HW1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E47D5F29B35C6500C6B128;
+			productRefGroup = 13E47D6929B35C6500C6B128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E47D6729B35C6500C6B128 /* Otus_HW1 */,
+				13E47D7729B35C6600C6B128 /* Otus_HW1Tests */,
+				13E47D8129B35C6600C6B128 /* Otus_HW1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E47D6629B35C6500C6B128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E47D7329B35C6600C6B128 /* Preview Assets.xcassets in Resources */,
+				13E47D7029B35C6600C6B128 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E47D7629B35C6600C6B128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E47D8029B35C6600C6B128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E47D6429B35C6500C6B128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E47D9D29B35DCA00C6B128 /* FirstScreen.swift in Sources */,
+				13E47DA329B3683600C6B128 /* SecondScreen__VM.swift in Sources */,
+				13E47D6E29B35C6500C6B128 /* ContentView.swift in Sources */,
+				13E47D6C29B35C6500C6B128 /* Otus_HW1App.swift in Sources */,
+				13E47DA529B3954800C6B128 /* FoodDetailScreen.swift in Sources */,
+				13E47D9B29B35D3E00C6B128 /* TabViewScreen.swift in Sources */,
+				13E47D9F29B35DD600C6B128 /* SecondScreen.swift in Sources */,
+				13E47DA129B35DDF00C6B128 /* ThridScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E47D7429B35C6600C6B128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E47D7D29B35C6600C6B128 /* Otus_HW1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E47D7E29B35C6600C6B128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E47D8929B35C6600C6B128 /* Otus_HW1UITestsLaunchTests.swift in Sources */,
+				13E47D8729B35C6600C6B128 /* Otus_HW1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13E47D7A29B35C6600C6B128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E47D6729B35C6500C6B128 /* Otus_HW1 */;
+			targetProxy = 13E47D7929B35C6600C6B128 /* PBXContainerItemProxy */;
+		};
+		13E47D8429B35C6600C6B128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E47D6729B35C6500C6B128 /* Otus_HW1 */;
+			targetProxy = 13E47D8329B35C6600C6B128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E47D8A29B35C6600C6B128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E47D8B29B35C6600C6B128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E47D8D29B35C6600C6B128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Otus_HW1/Preview Content\"";
+				DEVELOPMENT_TEAM = A3CGQEAAQV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "otus.Otus-HW1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13E47D8E29B35C6600C6B128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Otus_HW1/Preview Content\"";
+				DEVELOPMENT_TEAM = A3CGQEAAQV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "otus.Otus-HW1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13E47D9029B35C6600C6B128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3CGQEAAQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "otus.Otus-HW1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otus_HW1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Otus_HW1";
+			};
+			name = Debug;
+		};
+		13E47D9129B35C6600C6B128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3CGQEAAQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "otus.Otus-HW1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otus_HW1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Otus_HW1";
+			};
+			name = Release;
+		};
+		13E47D9329B35C6600C6B128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3CGQEAAQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "otus.Otus-HW1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otus_HW1;
+			};
+			name = Debug;
+		};
+		13E47D9429B35C6600C6B128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3CGQEAAQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "otus.Otus-HW1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otus_HW1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E47D6329B35C6500C6B128 /* Build configuration list for PBXProject "Otus_HW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E47D8A29B35C6600C6B128 /* Debug */,
+				13E47D8B29B35C6600C6B128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E47D8C29B35C6600C6B128 /* Build configuration list for PBXNativeTarget "Otus_HW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E47D8D29B35C6600C6B128 /* Debug */,
+				13E47D8E29B35C6600C6B128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E47D8F29B35C6600C6B128 /* Build configuration list for PBXNativeTarget "Otus_HW1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E47D9029B35C6600C6B128 /* Debug */,
+				13E47D9129B35C6600C6B128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E47D9229B35C6600C6B128 /* Build configuration list for PBXNativeTarget "Otus_HW1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E47D9329B35C6600C6B128 /* Debug */,
+				13E47D9429B35C6600C6B128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13D4B8AB29BCB7F40058D14D /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NavigationStack;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 13E47D6029B35C6500C6B128 /* Project object */;
+}
